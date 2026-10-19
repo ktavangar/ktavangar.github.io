@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Archived copy of the previous site (kept locally only)
+outdated/
+
+# Editable source documents (the PDFs are what the site serves)
+*.pages
+
+# Superseded CV versions
+Tavangar_CV_[0-9]*.pdf

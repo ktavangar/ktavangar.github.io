@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research | Kiyan Tavangar</title>
+  <meta name="description" content="Research projects by Kiyan Tavangar: phase-space spirals, stellar streams, globular cluster tidal tails and strong lensing.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:wght@500;600&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html">Kiyan Tavangar</a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html#about">About</a>
+      <a href="research.html" class="active">Research</a>
+      <a href="index.html#publications">Publications</a>
+      <a href="index.html#beyond">Beyond Research</a>
+      <a href="index.html#cv">CV &amp; Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="container page-head">
+    <h1>Research</h1>
+    <p>More detail on the research I have done and am currently working on. If you are interested in any of these projects, please <a href="mailto:k.tavangar@columbia.edu">email me</a>; I'd love to chat and collaborate. For a complete list of papers, see my <a href="https://ui.adsabs.harvard.edu/search/p_=0&amp;q=orcid%3A0000-0001-6584-6144&amp;sort=date%20desc%2C%20bibcode%20desc">ADS profile</a>.</p>
+    <nav class="toc" aria-label="Projects">
+      <a href="#phase-spirals">Phase spirals</a>
+      <a href="#gd1">GD-1</a>
+      <a href="#delve">Globular cluster envelopes</a>
+      <a href="#phoenix">Phoenix</a>
+      <a href="#pal13">Palomar 13</a>
+      <a href="#lensing">Strong lensing</a>
+    </nav>
+  </div>
+
+  <div class="container">
+
+    <article class="project" id="phase-spirals">
+      <h2>Phase Spirals in the Milky Way Disk and Simulations</h2>
+      <div class="tags">Current &middot; with Prof. Kathryn Johnston, Columbia University</div>
+      <div class="two-col">
+        <div>
+          <p>I have worked on phase-space spirals with Prof. Kathryn Johnston since arriving at Columbia in 2022. These spirals were discovered by <a href="https://ui.adsabs.harvard.edu/abs/2018Natur.561..360A/abstract">Antoja et al. (2018)</a> in Gaia DR2 data, who found a spiral structure in the z&ndash;v<sub>z</sub> plane for Solar Neighborhood stars, suggesting a past perturbation. Since then, phase spirals have been found across the Galactic disk, in density, in velocity, and even in chemistry. Much remains unknown, including their cause and how they evolve over time.</p>
+          <p>I use basis function expansions (BFEs) and Singular Spectrum Analysis (SSA) on simulations to understand correlations and trends in phase-spiral properties across large scales of galactic disks. In <a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260323588T/abstract">Tavangar et al. (2026)</a> we found that phase spirals wind up differently in different parts of the disk: inner-disk spirals are substantially delayed in winding compared to the outer disk. This matters for interpretation, because perturbation times derived from outer-disk phase spirals are likely closer to the true perturbation times. It also highlights the importance of understanding how self-gravity affects phase-spiral evolution, which we begin to explore and which remains an open question.</p>
+          <p>In an upcoming paper, I explore correlations between phase-spiral amplitudes across galactic disks, which give a new way to probe the nature of the perturbation that caused the spirals. In the next few years I'm excited to use these tools to connect simulations to observations and learn more about the history of the Milky Way, and possibly to explore a connection to small-scale dark matter halos.</p>
+        </div>
+        <figure class="figure"><img src="img/snails.jpg" width="424" height="338" alt="A phase-space spiral" loading="lazy"></figure>
+      </div>
+    </article>
+
+    <article class="project" id="gd1">
+      <h2>The GD-1 Stream</h2>
+      <div class="tags">2025 &middot; with Dr. Adrian Price-Whelan</div>
+      <div class="two-col flip">
+        <div>
+          <p>In 2025, Adrian Price-Whelan and I developed a <a href="https://ui.adsabs.harvard.edu/abs/2025ApJ...988...45T/abstract">framework to model the density of stellar streams</a>, which we tested on GD-1. It builds on earlier work and adds a way to model stars away from the main stream track. Such stars, like the "spur" in GD-1, are likely the most constraining when trying to understand the effects of small dark matter subhalos on streams.</p>
+          <p>I'm excited to extend the framework to many more streams. The goal is a catalog of density models, along with the most interesting or constraining stream features, that the community can use to choose follow-up target regions as we try to constrain dark matter with stellar streams. With many new surveys and telescopes coming online in the next few years, we will have a wealth of new stream data, and I hope this framework helps us make the most of it.</p>
+        </div>
+        <figure class="figure"><img src="img/gd1.jpg" width="593" height="622" alt="GD-1 color-magnitude diagram" loading="lazy"></figure>
+      </div>
+    </article>
+
+    <article class="project" id="delve">
+      <h2>Tidal Envelopes Around Globular Clusters</h2>
+      <div class="tags">2025 &middot; with Dr. Ani Chiti, DELVE collaboration</div>
+      <div class="two-col">
+        <div>
+          <p>Ani Chiti and I collaborated on a <a href="https://ui.adsabs.harvard.edu/abs/2025AJ....170..294C/abstract">paper</a> exploring extratidal features around globular clusters in the DELVE footprint. We found two clusters, NGC 5897 and NGC 7492, with previously undetected envelopes.</p>
+          <p>We then asked whether we should have expected to find more, and whether LSST will allow us to discover more. Every globular cluster is losing mass to tidal stripping, but for many clusters the surface brightness of the tidal features is too low to detect even with LSST, at least when only photometry is used to identify candidate stream stars.</p>
+        </div>
+        <figure class="figure"><img src="img/delve.jpg" width="503" height="522" alt="DELVE tidal features around globular clusters" loading="lazy"></figure>
+      </div>
+    </article>
+
+    <article class="project" id="phoenix">
+      <h2>The Phoenix Stream</h2>
+      <div class="tags">Undergraduate research &middot; with Prof. Alex Drlica-Wagner, University of Chicago</div>
+      <div class="two-col flip">
+        <div>
+          <p>As an undergraduate at the University of Chicago, I was advised by Prof. Alex Drlica-Wagner. My <a href="https://ui.adsabs.harvard.edu/abs/2022ApJ...925..118T/abstract">first completed project</a> was an analysis of the Phoenix stellar stream in Dark Energy Survey (DES) data, fitting a non-parametric spline model to the density, track, and width of the stream. We found that Phoenix has structure on smaller scales than other similarly modeled streams. If a dark matter subhalo caused those perturbations, the required low subhalo mass could help constrain the nature of dark matter.</p>
+        </div>
+        <figure class="figure"><img src="img/phoenix.jpg" width="407" height="323" alt="Spatial plot of the Phoenix stream" loading="lazy"></figure>
+      </div>
+    </article>
+
+    <article class="project" id="pal13">
+      <h2>The Palomar 13 Stream</h2>
+      <div class="tags">2020 &middot; led by Dr. Nora Shipp</div>
+      <div class="two-col">
+        <div>
+          <p>In a project led by then-graduate student Nora Shipp, we <a href="https://ui.adsabs.harvard.edu/abs/2020AJ....160..244S/abstract">discovered tidal tails around the globular cluster Palomar 13</a>. If confirmed, this will be one of the few streams with a known progenitor, which greatly helps constrain its orbit. Getting the orbit right is crucial for understanding the Milky Way's potential and how structure moves within, and interacts with, the dark matter halo.</p>
+        </div>
+        <figure class="figure"><img src="img/pal13.jpg" width="301" height="285" alt="Spatial plot of the Palomar 13 stream" loading="lazy"></figure>
+      </div>
+    </article>
+
+    <article class="project" id="lensing">
+      <h2>Strong Lensing: COOL-LAMPS</h2>
+      <div class="tags">Undergraduate research &middot; University of Chicago</div>
+      <div class="two-col flip">
+        <div>
+          <p>The Chicago Optically-selected Lenses Located at the Margins of Public Surveys (COOL-LAMPS) collaboration was started by Prof. Mike Gladders and Dr. Gourav Khullar at the University of Chicago. It consists of the roughly ten students each year who take the "Field Course in Astrophysics" with Mike, working together on a strong lensing project in which Mike and Gourav are world-leading experts.</p>
+          <p>I'm proud to have been part of the first class, where we discovered the brightest z&nbsp;~&nbsp;5 galaxy known. Since then COOL-LAMPS has published many more papers, and the collaboration grows every year with a new class of undergraduates.</p>
+        </div>
+        <figure class="figure"><img src="img/cool-lamps.jpg" width="800" height="753" alt="COOL J1241+2219 strong lens" loading="lazy"></figure>
+      </div>
+    </article>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>&copy; <span id="year">2026</span> Kiyan Tavangar</span>
+    <span>
+      <a href="https://orcid.org/0000-0001-6584-6144">ORCID</a> &middot;
+      <a href="https://github.com/ktavangar/">GitHub</a> &middot;
+      <a href="https://www.linkedin.com/in/kiyan-tavangar/">LinkedIn</a>
+    </span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
